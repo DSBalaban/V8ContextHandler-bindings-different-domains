@@ -13,7 +13,8 @@ def main():
     check_versions()
     sys.excepthook = cef.ExceptHook
     settings = {
-        'log_file': 'cefpython3.log'
+        'log_file': 'cefpython3.log',
+        'log_severity': cef.LOGSEVERITY_INFO
     }
 
     switches = {}
