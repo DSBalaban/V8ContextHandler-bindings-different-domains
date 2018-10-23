@@ -1,0 +1,4 @@
+webrtc_event_logs
+*.log
+.vscode/
+.idea/
